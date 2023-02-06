@@ -1,0 +1,166 @@
+edw exw ta eksis:
+
+1) Ta simata sta opoia exw diagrapsei ta arxika deuterolepta wste na einai swsta ta lepta.
+2) Ta time_features gia kathe PP kai C opou exw diathesima simata.
+3) Ta FaceReader data poy exw antistoixisei ta timestamps me auta twn simatwn.
+
+Paratirw pws kapoia dataset yparxoun sto ena kai leipoyn sto allo. Ayta einai ta eksis:
+
+1)pp3_c1,pp21 genika (leipei apo facereader)
+
+
+
+
+
+
+
+
+Me skin data:
+10-fold Score for SVM: 0.8835141943465464
+10-fold Score for RF: 0.8840455969475081
+10-fold Score for KNN: 0.8412963768411645
+
+
+Test Score for SVM: 0.8924455825864277
+Test Score for RF: 0.9167733674775929
+Test Score for KNN: 0.8873239436619719
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax  375.0   16.0 
+    Stress   68.0  322.0 
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  363.0   28.0 
+    Stress   37.0  353.0 
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  338.0   53.0 
+    Stress   35.0  355.0 
+
+
+
+
+
+
+
+
+Xwris Skin_data:
+
+10-fold Score for SVM: 0.8802023128578693
+10-fold Score for RF: 0.8609832548877925
+10-fold Score for KNN: 0.8335948958809206
+
+
+Test Score for SVM: 0.8898847631241997
+Test Score for RF: 0.8604353393085787
+Test Score for KNN: 0.8732394366197183
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax  373.0   18.0 
+    Stress   68.0  322.0 
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  345.0   46.0 
+    Stress   63.0  327.0 
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  331.0   60.0 
+    Stress   39.0  351.0 
+	
+
+
+
+
+
+Me ola ta data:
+
+10-fold Score for SVM: 0.6228980978066984
+10-fold Score for RF: 0.9220436091727671
+10-fold Score for KNN: 0.8993675528347389
+
+
+Test Score for SVM: 0.6578512396694215
+Test Score for RF: 0.9322314049586777
+Test Score for KNN: 0.9140495867768595
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax   70.0  206.0 
+    Stress    1.0  328.0 
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  252.0   24.0 
+    Stress   17.0  312.0 
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  237.0   39.0 
+    Stress   13.0  316.0 
+	
+	
+	
+
+
+
+Run_3: All data included (no skin)...
+10-fold Score for SVM: 0.5450069209583743
+10-fold Score for RF: 0.9156701913609316
+10-fold Score for KNN: 0.9000866903548953
+
+
+Test Score for SVM: 0.5636363636363636
+Test Score for RF: 0.9173553719008265
+Test Score for KNN: 0.9173553719008265
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax   12.0  264.0 
+    Stress    0.0  329.0 
+
+
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  244.0   32.0 
+    Stress   18.0  311.0 
+
+
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  239.0   37.0 
+    Stress   13.0  316.0 
+	
+	
+	
+	
+Run_4: Physio data included...
+10-fold Score for SVM: 0.7338600842467556
+10-fold Score for RF: 0.8028681300687716
+10-fold Score for KNN: 0.7082955603500863
+
+
+Test Score for SVM: 0.7430379746835443
+Test Score for RF: 0.7962025316455696
+Test Score for KNN: 0.6974683544303798
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax  302.0  107.0 
+    Stress   96.0  285.0 
+
+
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  332.0   77.0 
+    Stress   84.0  297.0 
+
+
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  261.0  148.0 
+    Stress   91.0  290.0

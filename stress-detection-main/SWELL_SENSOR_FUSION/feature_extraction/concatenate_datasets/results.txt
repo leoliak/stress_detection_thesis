@@ -1,0 +1,315 @@
+--------------------------------------------------------------------
+2019-09-04 11:50:07
+
+
+Run_3: All data included, and EDA...
+Start training phase..
+
+The best hyper-parameter for  SVM is {'C': 2.91, 'gamma': 0.01, 'kernel': 'rbf'}, mean accuracy through 10 Fold test is 95.04 
+
+SVM train accuracy = 100.0
+
+
+The best hyper-parameter for  LinearSVM is {'C': 2.61, 'penalty': 'l1', 'tol': 0.01}, mean accuracy through 10 Fold test is 84.48 
+
+LinearSVM train accuracy = 89.1566265060241
+
+C:\Users\leoni\Anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+The best hyper-parameter for  LogisticRegression is {'C': 1.4000000000000001}, mean accuracy through 10 Fold test is 84.62 
+
+LogisticRegression train accuracy = 89.1566265060241
+
+
+The best hyper-parameter for  KNN is {'n_neighbors': 1}, mean accuracy through 10 Fold test is 94.97 
+
+KNN train accuracy = 100.0
+
+
+The best hyper-parameter for  Random_Forest is {'max_depth': 25.0, 'n_estimators': 400}, mean accuracy through 10 Fold test is 92.91 
+
+Random_Forest train accuracy = 100.0
+
+
+Training process finished
+
+SVM results...
+10 fold test: 95.03897944720056
+Test accuracy: 95.70247933884298
+Train accuracy: 100.0
+Dataset accuracy: 98.71031746031747
+Random Forrest results...
+10 fold test: 92.9128277817151
+Test accuracy: 93.55371900826445
+Train accuracy: 100.0
+Dataset accuracy: 98.06547619047619
+KNN results...
+10 fold test: 94.96810772501772
+Test accuracy: 95.70247933884298
+Train accuracy: 100.0
+Dataset accuracy: 98.71031746031747
+
+
+---------------------------------------------------------------
+
+
+Test Score for SVM: 0.9570247933884297
+Test Score for RF: 0.9355371900826446
+Test Score for KNN: 0.9570247933884297
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax  267.0    9.0 
+    Stress   17.0  312.0 
+
+
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  253.0   23.0 
+    Stress   16.0  313.0 
+
+
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  262.0   14.0 
+    Stress   12.0  317.0 
+
+
+
+
+
+---------------------------------------------------------------
+No Kinect data now...
+Start training phase..
+
+The best hyper-parameter for  SVM is {'C': 2.41, 'gamma': 0.1, 'kernel': 'rbf'}, mean accuracy through 10 Fold test is 88.3 
+
+SVM train accuracy = 99.94505494505495
+
+C:\Users\leoni\Anaconda3\lib\site-packages\sklearn\svm\base.py:929: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  "the number of iterations.", ConvergenceWarning)
+
+The best hyper-parameter for  LinearSVM is {'C': 0.21000000000000002, 'penalty': 'l1', 'tol': 1e-05}, mean accuracy through 10 Fold test is 68.02 
+
+LinearSVM train accuracy = 70.4945054945055
+
+C:\Users\leoni\Anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+The best hyper-parameter for  LogisticRegression is {'C': 0.30000000000000004}, mean accuracy through 10 Fold test is 67.58 
+
+LogisticRegression train accuracy = 70.54945054945055
+
+
+The best hyper-parameter for  KNN is {'n_neighbors': 1}, mean accuracy through 10 Fold test is 86.37 
+
+KNN train accuracy = 100.0
+
+
+The best hyper-parameter for  Random_Forest is {'max_depth': 45.0, 'n_estimators': 300}, mean accuracy through 10 Fold test is 89.51 
+
+Random_Forest train accuracy = 100.0
+
+
+Training process finished
+
+SVM results...
+10 fold test: 88.2967032967033
+Test accuracy: 89.24455825864277
+Train accuracy: 99.94505494505495
+Dataset accuracy: 96.73202614379085
+Random Forrest results...
+10 fold test: 89.50549450549451
+Test accuracy: 91.0371318822023
+Train accuracy: 100.0
+Dataset accuracy: 97.30872741253364
+KNN results...
+10 fold test: 86.37362637362638
+Test accuracy: 88.348271446863
+Train accuracy: 100.0
+Dataset accuracy: 96.50134563629373
+
+
+---------------------------------------------------------------
+
+
+Test Score for SVM: 0.8924455825864277
+Test Score for RF: 0.910371318822023
+Test Score for KNN: 0.8834827144686299
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax  375.0   16.0 
+    Stress   68.0  322.0 
+
+
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  363.0   28.0 
+    Stress   42.0  348.0 
+
+
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  340.0   51.0 
+    Stress   40.0  350.0 
+
+
+
+
+
+---------------------------------------------------------------
+Only physion data now...
+Start training phase..
+
+The best hyper-parameter for  SVM is {'C': 2.11, 'gamma': 0.1, 'kernel': 'rbf'}, mean accuracy through 10 Fold test is 73.55 
+
+SVM train accuracy = 87.72406300923411
+
+
+The best hyper-parameter for  LinearSVM is {'C': 0.21000000000000002, 'penalty': 'l2', 'tol': 1e-08}, mean accuracy through 10 Fold test is 59.7 
+
+LinearSVM train accuracy = 61.92286800651819
+
+C:\Users\leoni\Anaconda3\lib\site-packages\sklearn\linear_model\logistic.py:947: ConvergenceWarning: lbfgs failed to converge. Increase the number of iterations.
+  "of iterations.", ConvergenceWarning)
+
+The best hyper-parameter for  LogisticRegression is {'C': 1.2000000000000002}, mean accuracy through 10 Fold test is 59.48 
+
+LogisticRegression train accuracy = 61.86854970124932
+
+
+The best hyper-parameter for  KNN is {'n_neighbors': 1}, mean accuracy through 10 Fold test is 71.7 
+
+KNN train accuracy = 100.0
+
+
+The best hyper-parameter for  Random_Forest is {'max_depth': 25.0, 'n_estimators': 400}, mean accuracy through 10 Fold test is 81.64 
+
+Random_Forest train accuracy = 100.0
+
+
+Training process finished
+
+SVM results...
+10 fold test: 73.54698533405758
+Test accuracy: 74.0506329113924
+Train accuracy: 87.72406300923411
+Dataset accuracy: 83.61839604713037
+Random Forrest results...
+10 fold test: 81.64041281912004
+Test accuracy: 78.73417721518987
+Train accuracy: 100.0
+Dataset accuracy: 93.6145952109464
+KNN results...
+10 fold test: 71.7001629549158
+Test accuracy: 70.12658227848101
+Train accuracy: 100.0
+Dataset accuracy: 91.0300266058533
+
+
+---------------------------------------------------------------
+
+
+Test Score for SVM: 0.740506329113924
+Test Score for RF: 0.7873417721518987
+Test Score for KNN: 0.7012658227848101
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax  299.0  110.0 
+    Stress   95.0  286.0 
+
+
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  326.0   83.0 
+    Stress   85.0  296.0 
+
+
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  274.0  135.0 
+    Stress  101.0  280.0 
+	
+	
+	
+
+
+
+User Model Dataset
+	
+Start training phase..
+
+The best hyper-parameter for  SVM is {'C': 2.71, 'gamma': 0.01, 'kernel': 'rbf'}, mean accuracy through 10 Fold test is 90.05 
+
+SVM train accuracy = 99.87244897959184
+
+
+The best hyper-parameter for  LinearSVM is {'C': 0.01, 'penalty': 'l2', 'tol': 1e-08}, mean accuracy through 10 Fold test is 80.68 
+
+LinearSVM train accuracy = 85.33163265306123
+
+
+The best hyper-parameter for  LogisticRegression is {'C': 0.2}, mean accuracy through 10 Fold test is 80.55 
+
+LogisticRegression train accuracy = 85.7780612244898
+
+
+The best hyper-parameter for  KNN is {'n_neighbors': 1}, mean accuracy through 10 Fold test is 90.43 
+
+KNN train accuracy = 100.0
+
+
+The best hyper-parameter for  Random_Forest is {'max_depth': 20.0, 'n_estimators': 1100}, mean accuracy through 10 Fold test is 89.73 
+
+Random_Forest train accuracy = 100.0
+
+
+Training process finished
+
+SVM results...
+10 fold test: 90.05102040816327
+Test accuracy: 90.34175334323923
+Train accuracy: 99.87244897959184
+Dataset accuracy: 97.01026327532351
+Random Forrest results...
+10 fold test: 89.73214285714286
+Test accuracy: 87.36998514115899
+Train accuracy: 100.0
+Dataset accuracy: 96.20705042391789
+KNN results...
+10 fold test: 90.43367346938776
+Test accuracy: 86.62704309063894
+Train accuracy: 100.0
+Dataset accuracy: 95.98393574297188
+
+
+---------------------------------------------------------------
+
+
+Test Score for SVM: 0.9034175334323923
+Test Score for RF: 0.8736998514115899
+Test Score for KNN: 0.8662704309063893
+
+
+SVM Comfusion Matrix:
+            Relax Stress 
+     Relax  302.0   35.0 
+    Stress   30.0  306.0 
+
+
+RF Comfusion Matrix:
+            Relax Stress 
+     Relax  284.0   53.0 
+    Stress   32.0  304.0 
+
+
+KNN Comfusion Matrix:
+            Relax Stress 
+     Relax  285.0   52.0 
+    Stress   38.0  298.0 
